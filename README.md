@@ -18,3 +18,8 @@
 
 - rails g controller Pages home about contact
 - then change the routes and add links to all pages
+
+## Add bootstrap manually, and set up file to override it
+
+- Do this: https://github.com/clarityhk/our_wiki/wiki/Adding-Bootstrap-to-Rails
+- Copy Bootstrap's `variables.less` file into your `bootstrap_and_overrides.css.less` file and comment it out (you'll uncomment only what you need to override)
