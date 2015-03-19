@@ -1,5 +1,15 @@
 @import 'less/bootstrap/bootstrap';
 
+
+// // Custom Variables
+
+// @buzz-navbar-bg: #00f; //hex
+// @buzz-navbar-bg: rgb(0, 0, 220); //rgb
+// @buzz-navbar-bg: rgba(0, 0, 220, 0.5); //rgba
+@buzz-navbar-bg: #505	; //hex
+
+
+
 // //
 // // Variables
 // // --------------------------------------------------
@@ -29,11 +39,14 @@
 //
 // //** Background color for `<body>`.
 // @body-bg:               #fff;
+@body-bg:               #efefef;
 // //** Global text color on `<body>`.
 // @text-color:            @gray-dark;
+@text-color:            @gray;
 //
 // //** Global textual link color.
 // @link-color:            @brand-primary;
+@link-color:            @brand-warning;
 // //** Link hover color set via `darken()` function.
 // @link-hover-color:      darken(@link-color, 15%);
 // //** Link hover decoration.
@@ -389,6 +402,7 @@
 // // Reset inverted navbar basics
 // @navbar-inverse-color:                      lighten(@gray-light, 15%);
 // @navbar-inverse-bg:                         #222;
+@navbar-inverse-bg:                         	@buzz-navbar-bg;
 // @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 //
 // // Inverted navbar links
