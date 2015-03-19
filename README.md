@@ -13,3 +13,8 @@
 - git push -u origin master
 - git co -b develop
 - git push -u origin develop  
+
+## Static pages
+
+- rails g controller Pages home about contact
+- then change the routes and add links to all pages
